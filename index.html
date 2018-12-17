@@ -3,28 +3,33 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    
+    <script type="text/javascript" src="main.js" async></script>
 </head>
 
 <body>
     <!--Comment-->
     <h1>This is a page</h1>
     <div>
-        <p>
+        <h2>
             Yo
-        </p>
+        </h2>
     </div>
-    <p>
+    <p1>
         This is a <span style="color:blue">span</span> example.
-    </p>
-    <button type="button" onclick="refreshPage()">Refresh</button>
-    <button type="button" onclick="helloButton()">hello?</button>
+    </p1>
+    <br>
+    <p2>
+        This paragraph is bad.
+    </p2>
+    <br><br>
+    <div id="buttons">
+        <button id ="refreshButton" type="button" onclick="refreshPage();">Refresh</button><br><br>
+        <button id="helloButton" type="button" onclick="helloButton();">hello?</button><br><br>
+        <button id="backgroundColor" type="button" onclick="randomBGColor();">Change background color</button>
+    </div>
 </body>
-
-<script src="main.js"></script>
 
 </html>

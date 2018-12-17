@@ -1,0 +1,39 @@
+body{
+    margin: 50px 50px 50px 50px;
+}
+
+h1 {
+    color: red;
+  }
+
+h2 {
+    color: dimgray;
+  }
+
+p1 {
+    color: orange;
+  }
+
+p2 {
+  color: slategray;
+}
+
+  #refreshButton:hover {
+    text-decoration: underline;
+  }
+
+  #helloButton:hover {
+    text-decoration: line-through;
+  }
+
+  #backgroundColor:hover {
+    text-decoration: overline;
+  }
+
+  body {
+    background-color: coral;
+  }
+
+  div {
+    outline: 2px dashed black;
+  }
